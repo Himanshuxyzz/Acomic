@@ -1,0 +1,24 @@
+.quote {
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+}
+
+.quote div {
+  margin-left: 20px;
+}
+
+.quote > div > span {
+  font-size: 1.4rem;
+  transition: all 0.1s ease-in-out;
+}
+
+.quote_wrapper {
+  display: flex;
+  flex-direction: column;
+  transition: all 0.1s ease-in-out;
+}
+
+.quote_wrapper:last-child {
+  margin-left: 150px;
+}

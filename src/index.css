@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "New Tegomin", sans-serif;
+  src: url(./assets/fonts/Tegomin/NewTegomin-Regular.ttf) format("truetype");
+  font-weight: bold;
+}
+
+html {
+  font-family: "New Tegomin";
+  text-rendering: optimizeLegibility;
+  scroll-behavior: smooth;
+}
+
+/* utility classes */
+
+.border {
+  border: 1px solid black;
+}
+
+.mt-9 {
+  margin-top: 90px;
+}
+
+.mt-2 {
+  margin-top: 20px;
+}

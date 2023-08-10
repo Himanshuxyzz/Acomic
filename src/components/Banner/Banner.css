@@ -1,0 +1,12 @@
+.banner {
+  max-width: 640px;
+  max-height: 180px;
+  margin: 0 auto;
+}
+
+.banner img {
+  border: 1px solid black;
+  image-rendering: optimizeQuality;
+  width: 100%;
+  object-fit: cover;
+}
