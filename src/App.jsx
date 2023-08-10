@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <Container>
-        <Navbar />
+        {/* <Navbar /> */}
         <Banner />
         <Quote
           message={"海は広い。いつか必ず優しい人達に会えるから！"}
