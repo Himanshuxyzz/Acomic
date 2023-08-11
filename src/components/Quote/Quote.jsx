@@ -21,7 +21,7 @@ const Quote = ({ message, cols}) => {
     hidden: { opacity: 0 },
     visible: (i = 1) => ({
       opacity: 1,
-      transition: { staggerChildren: 1, delayChildren: 0.25 * i },
+      transition: { staggerChildren: 0.25, delayChildren: 0.25 * i },
     }),
   };
 

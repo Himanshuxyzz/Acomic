@@ -5,7 +5,7 @@ import luffy from "../../assets/luffy.png";
 const Banner = () => {
   return (
     <div className="banner mt-9">
-      <img loading="lazy" src={luffy} alt="luffy_banner" />
+      <img width="100%" loading="lazy" src={luffy} alt="luffy_banner" />
     </div>
   );
 };
